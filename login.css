@@ -1,7 +1,4 @@
-.logo {
-    text-align: center;
-}
-
-.sel-lang {
-    text-align: right;
+body {
+    width: 300px;
+    margin: 0 auto;
 }
