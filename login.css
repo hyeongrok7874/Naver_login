@@ -1,4 +1,83 @@
 body {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 500px;
+    margin: 0 auto;
+    display: flex; 
+    margin-bottom: 20px;
+    margin-top: 30px;  
+}
+
+.logo img{
     width: 300px;
     margin: 0 auto;
+}
+
+.sel-lang {
+    width: 700px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.sel-lang .lang-select {
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.login-input-section .login-username-input input{
+    width: 485px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.login-input-section .login-password-input input{
+    width: 485px;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.login-input-section .login-button button{
+    width: 500px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.login-button button {
+    background-color: #03c75a;;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.easy-login .sign-buttons button {
+    width: 247px;
+    height: 70px;
+    font-size: 20px;
+}
+
+h2 {
+    width: 180px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.login-stay {
+    font-size: 20px;
+}
+
+.find-imfor p{
+    text-align: center;
+}
+
+#footer p {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
