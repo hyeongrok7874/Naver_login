@@ -1,84 +1,76 @@
 body {
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
 }
 
-.logo {
-    width: 500px;
-    margin: 0 auto;
-    display: flex; 
-    margin-bottom: 20px;
-    margin-top: 30px;  
-}
-
-.logo img{
-    width: 300px;
-    margin: 0 auto;
-}
-
-.sel-lang {
-    width: 700px;
-    text-align: right;
-    margin-top: 20px;
-}
-
-.sel-lang .lang-select {
+.lang-option {
+    width: 85px;
+    height: 25px;
     font-size: 15px;
-    width: 100px;
-    height: 30px;
+    margin-left: 560px;
+    margin-top: 30px;
+}
+
+.logo > img{
+    width: 250px;
+    display: flex;
     margin: 0 auto;
-}
-
-.login-input-section .login-username-input input{
-    width: 485px;
-    height: 40px;
-    padding-left: 10px;
-}
-
-.login-input-section .login-password-input input{
-    width: 485px;
-    height: 40px;
-    margin-top: 10px;
-    padding-left: 10px;
-}
-
-.login-input-section .login-button button{
-    width: 500px;
-    height: 60px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: none;
-}
-.login-button button {
-    background-color: #03c75a;;
-    color: white;
-    font-size: 20px;
-}
-
-.easy-login .sign-buttons button {
-    width: 247px;
-    height: 60px;
-    font-size: 20px;
-    border: 1px solid #03c75a;
-    background-color: white;
-}
-
-h2 {
-    width: 180px;
-    margin: 0 auto;
+    margin-top: 20px;
     margin-bottom: 30px;
+}
+
+.login_form > div > input{
+    width: 450px;
+    height: 25px;
+    font-size: 14px;
+    padding: 8px;
+}
+.login_form > div{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+.login_form .password {
+    margin-top: 10px;
+}
+.login_form .login-button > button{
+    width: 473px;
+    height: 60px;
+    margin-top: 15px;
+    background-color: #03c75a;
+    border: solid 1px rgba(0,0,0,.1);
+    color: white;
+    font-weight: 850;
+    font-size: 15px;
+}
+.stay .stay-login {
+    margin-left: 63px;
+}
+hr {
+    width: 475px;
+
+}
+.easy-login{
+    text-align: center;
     margin-top: 40px;
 }
-
-.login-stay {
-    font-size: 20px;
+.easy-login > .easy-login-button button{
+    width: 240px;
+    height: 55px;
+    font-size: 18px;
+    background-color: white;
+    border: 1px solid #03c75a;
 }
-
-.find-imfor p{
+.find-imfor > p{
     text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
 }
-
-#footer p {
-    bottom: 0;
-    width: 100%;
+.imformation > p{
+    text-align: center;
+    margin-top: 300px;
+    font-size: 13px;
 }
