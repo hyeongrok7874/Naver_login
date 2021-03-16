@@ -5,10 +5,11 @@ body {
 
 .lang-option {
     width: 85px;
-    height: 25px;
-    font-size: 15px;
+    height: 30px;
+    font-size: 12px;
     margin-left: 560px;
     margin-top: 30px;
+    padding-left: 3px;
 }
 
 .logo > img{
@@ -48,6 +49,9 @@ body {
 }
 .stay .stay-login {
     margin-left: 63px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 hr {
     width: 475px;
@@ -57,7 +61,7 @@ hr {
     text-align: center;
     margin-top: 40px;
 }
-.easy-login > .easy-login-button button{
+.easy-login .easy-login-button button{
     width: 240px;
     height: 55px;
     font-size: 18px;
@@ -73,4 +77,8 @@ hr {
     text-align: center;
     margin-top: 300px;
     font-size: 13px;
+}
+.stay .stay-login > input{
+    width: 20px;
+    height: 20px;
 }
