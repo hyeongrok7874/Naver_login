@@ -1,5 +1,5 @@
 body {
-    width: 600px;
+    width: 700px;
     margin: 0 auto;
 }
 
@@ -48,7 +48,7 @@ body {
     font-size: 15px;
 }
 .stay .stay-login {
-    margin-left: 63px;
+    margin-left: 110px;
     font-size: 17px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -85,3 +85,15 @@ hr {
 .login_form .username > input:focus , .password > input:focus{
     outline: 1px solid #03c75a;
 } 
+.stay > div {
+    display: inline;
+}
+.stay .ip-security{
+    float: right;
+    margin-right: 110px;
+    font-size: 17px;
+}
+.stay .ip-security > input{
+    width: 20px;
+    height: 20px;
+}
