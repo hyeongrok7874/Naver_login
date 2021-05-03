@@ -7,7 +7,7 @@ let user = {
 
 function submit(){
     let id = document.getElementById("id").value;
-    let password = document.getElementById("password").value;
+    let password = document.getElementById("password").value
 
     if(id == user.username && password == user.password){
         alert("로그인에 성공하셨습니다");
