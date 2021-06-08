@@ -1,15 +1,18 @@
 body {
     width: 700px;
     margin: 0 auto;
+    background: #f5f6f7;
 }
 
 .lang-option {
-    width: 85px;
+    width: 100px;
     height: 30px;
     font-size: 12px;
-    margin-left: 560px;
-    margin-top: 30px;
+    margin-left: 650px;
+    margin-top: 20px;
     padding-left: 3px;
+    border-color: #ccc;
+    background: #f5f6f7;
 }
 
 .logo > img{
@@ -25,6 +28,7 @@ body {
     height: 28px;
     font-size: 14px;
     padding: 8px;
+    border: solid 1px #dadada;
 }
 .login_form > div{
     display: flex;
@@ -38,7 +42,7 @@ body {
     margin-top: 10px;
 }
 .login_form .login-button > button{
-    width: 473px;
+    width: 470px;
     height: 60px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -56,7 +60,7 @@ body {
 }
 hr {
     width: 475px;
-
+    border: solid .1px #dadada;
 }
 .easy-login{
     text-align: center;
